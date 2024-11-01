@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+.column-no {
+	width:5%;	
+}
+
+.column-visitors_no {
+	width:5%;	
+}
+
+.column-ip {
+	width:10%;	
+}
+
+.column-agent {
+	width:20%;
+}
+
+.column-uri {
+	width:20%;
+}
+
+.column-vtime {
+	width:15%;
+}
+
+.column-browser {
+	width:15%;
+}
+
+.column-bounce {
+	width:15%;
+}
+
+.column-resource {
+	width:25%;
+}
+
+.column-http_referer{
+	width:30%;	
+}
+/*
+.tablenav #ip {
+	width:90px;	
+}
+
+.tablenav #resource {
+	width:140px;	
+}
+
+.tablenav #browser {
+	width:140px;	
+}
+
+.tablenav #period {
+	width:10%;	
+}
+
+*/
+
+.ui-daterangepicker {
+	line-height: 1.0em
+}
+
+#icon-report_traffic-analyzer {
+	background-image:url("../images/analyzer_32.png");
+	background-repeat: no-repeat;
+}
+
+.ta-view-switch  #ta-view-switch-detailed {
+    background-attachment: scroll;
+   
+    background-color: transparent;
+    background-image: url("../images/detailed_28.png");
+    background-origin: padding-box;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+.ta-view-switch  #ta-view-switch-consolidated {
+    background-attachment: scroll;
+   
+    background-color: transparent;
+    background-image: url("../images/consolidated_28.png");
+    background-origin: padding-box;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+.ta-view-switch  #ta-view-switch-graph {
+    background-attachment: scroll;
+   
+    background-color: transparent;
+    background-image: url("../images/graph_28.png");
+    background-origin: padding-box;
+    background-position: 0px 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+/*  This is needed because, unless this, <div id="ui-datepicker-div"> is displaying at the bottom of the page  */
+
+#ui-datepicker-div {	 
+		display:none;	
+}
+
+
+	
